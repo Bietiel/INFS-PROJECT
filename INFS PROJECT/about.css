@@ -1,0 +1,132 @@
+.navbar {
+    background-color: #D90B1C;
+    padding: 20px 24px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: white !important;
+    margin-left: 15px;
+}
+
+
+/* About Us Section */
+
+.about {
+    background-color: #A7CDFA;
+    color: #090200;
+    padding: 60px 20px;
+}
+
+.about h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.about h5 {
+    margin-bottom: 25px;
+}
+
+.abouttext {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: auto;
+    max-width: 850px;
+}
+
+
+/* Meet Our Team Section */
+
+.team {
+    background-color: #8F2828;
+    color: white;
+    padding: 50px 20px;
+}
+
+.team h2 {
+    margin-bottom: 20px;
+}
+
+.teamtext {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.team h4 {
+    margin-bottom: 20px;
+}
+
+.team p {
+    font-size: 16px;
+}
+
+.team a {
+    color: white;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #D90B1C;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #A7CDFA;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        font-size: 23px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .about {
+        padding: 40px 15px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .abouttext {
+        font-size: 16px;
+    }
+
+    .team {
+        padding: 40px 15px;
+    }
+
+    .teamtext {
+        font-size: 16px;
+    }
+
+    .footer a {
+        font-size: 17px;
+    }
+
+}
