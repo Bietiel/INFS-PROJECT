@@ -7,17 +7,15 @@
 .navbar-brand {
     font-size: 30px;
     font-weight: bold;
-    color: white !important;
+    color: white;
 }
 
 .nav-link {
     font-size: 22px;
-    color: white !important;
+    color: white;
     margin-left: 15px;
 }
 
-
-/* About Us Section */
 
 .about {
     background-color: #A7CDFA;
@@ -42,7 +40,6 @@
 }
 
 
-/* Meet Our Team Section */
 
 .team {
     background-color: #8F2828;
@@ -72,8 +69,6 @@
     color: white;
 }
 
-
-/* Footer */
 
 .footer {
     background-color: #D90B1C;
