@@ -17,7 +17,6 @@
 }
 
 
-/* About Us Section */
 
 .about {
     background-color: #8F2828;
@@ -42,7 +41,6 @@
 }
 
 
-/* Meet Our Team Section */
 
 .team {
     background-color: #8F2828;
@@ -73,7 +71,6 @@
 }
 
 
-/* Footer */
 
 .footer {
     background-color: #D90B1C;
@@ -93,7 +90,6 @@
 }
 
 
-/* Mobile Screen */
 
 @media (max-width: 767px) {
 
