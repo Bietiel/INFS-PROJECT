@@ -20,9 +20,9 @@
     <span class="navbar-toggler-icon"></span>
 </button>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="collapse navbar-collapse" id="myNavMenu">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
                     <a class="nav-link" href="home.html">Home</a>
@@ -45,64 +45,69 @@
         </div>
     </div>
 </nav>
-<h3>Food Crisis in Turkey</h3>
-<div class="container">
-        <p><img class="floatright" align="right" height="300px" width="250px" src="images/Grain-Image.png" alt="grain">
-        Turkey is facing devastating food shortages with food loss rates of up to 70%. These shortages are not only leading to 2.5% of the country in malnourishment but also leading to 5 Billion USD in economic losses and intensifying inflation. <br> <br>Our mission is to help the people of turkey find access to affordable food local to them. Our solution is to evaluate an individuals budget and location to be able to inform them of the closest and cheapest place to get clean water near them.
-        </p>
 
+<main class="main-content">
 
+    <div class="container-fluid">
 
-<div> 
-    <form class="form-horizontal" action="../scripts/webform.php" method="post">
+        <div class="row align-items-center">
 
-<div class="form-group">
-	<label class="control-label col-sm-2" for="name">
-		Name:
-	</label>
-	<div class="col-sm-5">
-		<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
-	</div>
-</div>
+            <div class="col-md-7">
 
-<div class="form-group">
-	<label class="control-label col-sm-2" for="email">
-		Email:
-	</label>
-	<div class="col-sm-5">
-		<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
-	</div>
-</div>
+                <div class="textbox">
 
-<div class="form-group">
-	<label class="control-label col-sm-2" for="budget">
-		Budget:
-	</label>
-	<div class="col-sm-5">
-		<input type="text" class="form-control" name="budget" id="budget" placeholder="Enter Budget">
-	</div>
-</div>
+                    <h3>Food Crisis in Turkey</h3>
+                    <p>
+                        Turkey is facing devastating food shortages with food loss rates of up to 70%. These shortages are not only leading to 2.5% of the country in malnourishment but also leading to 5 Billion USD in economic losses and intensifying inflation.
+                    </p>
 
-<div class="form-group">
-	<label class="control-label col-sm-2" for="location">
-		Location:
-	</label>
-	<div class="col-sm-5">
-		<input type="text" class="form-control" name="location" id="location" placeholder="Enter Location">
-	</div>
-</div>
+                    <p>
+                        Our mission is to help the people of Turkey find access to affordable food local to them. Our solution is to evaluate an individual's budget and location to be able to inform them of the closest and cheapest place to get affordable food.
+                    </p>
 
-<div class="form-group">
-	<div class="col-sm-10">
-		<button type="submit" class="btn">Submit</button>
-	</div>
-</div>
-</div>
+                    <form class="form-horizontal" action="../scripts/webform.php" method="post">
 
-<img class="floatright" align="right"  height="300px" width="350px" src="images/Feeding_others.png" alt="grain">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" name="name"
+                                id="name" placeholder="Enter Name">
+                        </div>
 
-    </div>
-</div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" name="email"
+                                id="email" placeholder="Enter Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget:</label>
+                            <input type="text" class="form-control" name="budget"
+                                d="budget" placeholder="Enter Budget">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <input type="text" class="form-control" name="location"
+                                id="location" placeholder="Enter Location">
+                        </div>
+
+                        <button type="submit" class="btn">Submit</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-md-5 text-center">
+                <img class="picture" src="Images/Grain-Image.png"
+                    alt="Grain">
+            </div>
+
+        </div>
+
+     </div>
+
+</main>
 
 <footer class="footer">
 
