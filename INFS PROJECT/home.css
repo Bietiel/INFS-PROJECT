@@ -16,6 +16,10 @@
     margin-left: 15px;
 }
 
+.nav-link:hover {
+    color: white !important;
+}
+
 .carousel {
     margin: 20px 4% #8F2828;
     background-color: #8F2828;
