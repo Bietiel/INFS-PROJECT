@@ -1,23 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Affordable food in Turkey </title>
-     
+   <title> Affordable food in Turkey</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+
 </head>
 
 <body>
-<!--Start of Background-->
+	<!--Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #D90B1C;">
+
+    <div class="container"> <!--Container-->
+
+        <a class="navbar-brand" href="index.html">Food & Water Turkey</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="food">Food</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"  href="water">Water</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<h3>Food Crisis in Turkey</h3>
+<div class="container">
+        <p><img class="floatright" align="right" height="300px" width="250px" src="images/Grain-Image.png" alt="grain">
+        Turkey is facing devastating food shortages with food loss rates of up to 70%. These shortages are not only leading to 2.5% of the country in malnourishment but also leading to 5 Billion USD in economic losses and intensifying inflation. <br> <br>Our mission is to help the people of turkey find access to affordable food local to them. Our solution is to evaluate an individuals budget and location to be able to inform them of the closest and cheapest place to get clean water near them.
+        </p>
 
 
 
+<div> 
+    <form class="form-horizontal" action="../scripts/webform.php" method="post">
 
+<div class="form-group">
+	<label class="control-label col-sm-2" for="name">
+		Name:
+	</label>
+	<div class="col-sm-5">
+		<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name">
+	</div>
+</div>
+
+<div class="form-group">
+	<label class="control-label col-sm-2" for="email">
+		Email:
+	</label>
+	<div class="col-sm-5">
+		<input type="text" class="form-control" name="email" id="email" placeholder="Enter Email">
+	</div>
+</div>
+
+<div class="form-group">
+	<label class="control-label col-sm-2" for="budget">
+		Budget:
+	</label>
+	<div class="col-sm-5">
+		<input type="text" class="form-control" name="budget" id="budget" placeholder="Enter Budget">
+	</div>
+</div>
+
+<div class="form-group">
+	<label class="control-label col-sm-2" for="location">
+		Location:
+	</label>
+	<div class="col-sm-5">
+		<input type="text" class="form-control" name="location" id="location" placeholder="Enter Location">
+	</div>
+</div>
+
+<div class="form-group">
+	<div class="col-sm-10">
+		<button type="submit" class="btn">Submit</button>
+	</div>
+</div>
+</div>
+
+<img class="floatright" align="right"  height="300px" width="350px" src="images/Feeding_others.png" alt="grain">
+
+    </div>
+</div>
+<footer class=" fixed-bottom text white text-center p-3 mt-5" style="background-color:#D90B1C;">
+    
+    <a href="about" class="text-white" mx-3>About Us</a>
+    <a href="q&a" class="text-white mx-3">Q&A</a>
+
+</footer>
 
 </body>
-
 
 </html>
