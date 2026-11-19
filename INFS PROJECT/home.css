@@ -17,12 +17,8 @@
 }
 
 .carousel {
-    margin: 20px 4%;
-}
-
-body {
+    margin: 20px 4% #8F2828;
     background-color: #8F2828;
-    margin: 0;
 }
 
 .carousel img {
