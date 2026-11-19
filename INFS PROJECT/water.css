@@ -1,5 +1,25 @@
+.navbar {
+    background-color: #D90B1C;
+    padding: 20px 24px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: white;
+    margin-left: 15px;
+}
+
+
 body {
     padding-bottom: 48px;
+    background-color: #8F2828;
 }
 
 h3 {
@@ -27,4 +47,21 @@ h3 {
   flex-shrink: 0;
   object-fit: cover;
   border-radius: 12px;
+}
+
+.footer {
+    background-color: #D90B1C;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #A7CDFA;
 }
