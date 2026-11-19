@@ -5,3 +5,26 @@ body {
 h3 {
     text-align: center;
 }
+
+.container-fluid {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.textbox {
+  flex: 1;
+  min-width: 0;
+  background-color: #a7cdfa;
+  border: 1px solid #090200;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 12px;
+}
