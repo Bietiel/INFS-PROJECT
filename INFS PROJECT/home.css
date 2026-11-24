@@ -43,10 +43,11 @@
     font-size: 20px;
 }
 
-.information {
+ body {
     background-color: #8F2828;
-    color: white;
-    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .food-section {
@@ -79,13 +80,6 @@
 .water-section p {
     font-size: 17px;
     line-height: 1.5;
-}
-
-
-.solution {
-    background-color: #8F2828;
-    color: white;
-    padding: 20px 40px 35px;
 }
 
 .solution h2 {

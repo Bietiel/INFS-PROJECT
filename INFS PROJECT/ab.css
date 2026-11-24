@@ -16,10 +16,11 @@
     margin-left: 15px;
 }
 
-.about {
+ body {
     background-color: #8F2828;
-    color: white;
-    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .about h1 {
@@ -36,14 +37,6 @@
     line-height: 1.7;
     margin: auto;
     max-width: 850px;
-}
-
-
-
-.team {
-    background-color: #8F2828;
-    color: white;
-    padding: 50px 20px;
 }
 
 .team h2 {
