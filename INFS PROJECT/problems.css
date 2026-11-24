@@ -24,15 +24,13 @@ body {
     min-height: 100vh;
 }
 
-.main-content {
-    color: white;  
+.main-content { 
     flex: 1;
 }
 
 .container-fluid {
     padding: 25px;
     margin-bottom: 30px;
-    color: white;
 }
 
 .section {
@@ -40,7 +38,6 @@ body {
     align-items: stretch;
     gap: 25px;
     margin-bottom: 40px;
-    color: white;
 }
 
 .textbox {
@@ -49,7 +46,6 @@ body {
     border: 1px solid #090200;
     border-radius: 12px;
     padding: 30px;
-    color: white;
 }
 
 .picture {

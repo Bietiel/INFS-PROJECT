@@ -26,31 +26,26 @@ body {
 
 .main-content {
     flex: 1;
-    color: white;
 }
 
 .container-fluid {
     padding: 30px;
     margin-bottom: 30px;
-    color: white;
 }
 
 .page-title {
-    color: white;
     text-align: center;
     font-size: 38px;
     margin-bottom: 15px;
 }
 
 .page-intro {
-    color: white;
     text-align: center;
     font-size: 18px;
     margin-bottom: 35px;
 }
 
 .section-title {
-    color: white;
     font-size: 27px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -59,7 +54,6 @@ body {
 .faq-box {
     background-color: #A7CDFA;
     border: 1px solid #090200;
-    color: white;
     border-radius: 15px;
     margin-bottom: 15px;
     padding: 18px 22px;
@@ -72,14 +66,12 @@ body {
     text-align: left;
     font-size: 20px;
     font-weight: bold;
-    color: white;
     padding: 5px;
     cursor: pointer;
 }
 
 .faq-question:focus {
     outline: none;
-    color: white;
 }
 
 .arrow {
@@ -87,16 +79,13 @@ body {
     font-size: 16px;
     margin-left: 15px;
     transition: transform 0.3s;
-    color: white;
 }
 
 .faq-question[aria-expanded="true"] .arrow {
     transform: rotate(180deg);
-    color: white;
 }
 
 .faq-answer {
-    color: white;
     font-size: 17px;
     line-height: 1.6;
     padding: 15px 5px 5px;
