@@ -26,10 +26,12 @@
 .about h1 {
     font-size: 38px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .about h5 {
     margin-bottom: 25px;
+    color: white;
 }
 
 .abouttext {
@@ -37,24 +39,29 @@
     line-height: 1.7;
     margin: auto;
     max-width: 850px;
+    color: white;
 }
 
 .team h2 {
     margin-bottom: 20px;
+    color: white;
 }
 
 .teamtext {
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 35px;
+    color: white;
 }
 
 .team h4 {
     margin-bottom: 20px;
+    color: white;
 }
 
 .team p {
     font-size: 16px;
+    color: white;
 }
 
 .team a {
