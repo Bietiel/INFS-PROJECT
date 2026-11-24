@@ -26,11 +26,13 @@ body {
 
 .main-content { 
     flex: 1;
+    color: white;
 }
 
 .container-fluid {
     padding: 25px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .section {
@@ -50,8 +52,10 @@ body {
 
 .picture {
     width: 22%;
+    max-width: 450px;
     height: 310px;
     object-fit: cover;
+    border: 4px solid white;
     border-radius: 12px;
 }
 

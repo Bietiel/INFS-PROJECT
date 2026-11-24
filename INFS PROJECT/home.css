@@ -61,6 +61,7 @@
 }
 
 .food-section {
+    background-color: #A7CDFA;
     border: 2px solid;
     border-radius: 15px;
     padding: 20px;
@@ -68,6 +69,7 @@
 }
 
 .water-section {
+    background-color: #A7CDFA;
     border: 2px solid;
     border-radius: 15px;
     padding: 20px;
