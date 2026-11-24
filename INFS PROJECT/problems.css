@@ -32,7 +32,6 @@ body {
 .container-fluid {
     padding: 25px;
     margin-bottom: 30px;
-    color: white;
 }
 
 .section {
@@ -51,7 +50,7 @@ body {
 }
 
 .picture {
-    width: 22%;
+    width: 100%;
     max-width: 450px;
     height: 310px;
     object-fit: cover;
