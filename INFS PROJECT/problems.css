@@ -35,13 +35,15 @@ body {
 
 .section {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 25px;
     margin-bottom: 40px;
 }
 
 .textbox {
-    flex: 1;
+    flex: 2;
+    min-width: 0;
     background-color: #A7CDFA;
     border: 1px solid #090200;
     border-radius: 12px;
@@ -49,15 +51,37 @@ body {
 }
 
 .picture {
+<<<<<<< HEAD
+    flex: 1;
+    width: 255px;
+=======
     width: 22%;
+>>>>>>> 6bbfeba72621a7ca8c546dbaa2718ac81d563682
     height: 310px;
     object-fit: cover;
     border-radius: 12px;
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
+  .section {
+    flex-direction: column;
+    align-items: center;
+=======
   .section {
     grid-template-columns: 1fr;
+>>>>>>> 6bbfeba72621a7ca8c546dbaa2718ac81d563682
+  }
+
+  .textbox{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .picture{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
   }
 }
 
